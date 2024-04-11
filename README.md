@@ -42,12 +42,12 @@ While it's not mandatory to handle or declare unchecked exceptions, it's still a
 
 4.Write a Java program that reads user input for two integers and performs division. Handle the exception that is thrown when the second number is zero, and display an error message to the user.
 
+   
 import java.util.Scanner;
 
 public class Division {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         try {
              
             System.out.print("Enter the first integer: ");
